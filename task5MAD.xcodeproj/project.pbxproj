@@ -10,6 +10,12 @@
 		3EE6DF80B5CFE295922041D7 /* Pods_task5MAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A39EEE6A8CC4F71F61052B7 /* Pods_task5MAD.framework */; };
 		64571784F23E19BF3628DD45 /* Pods_task5MAD_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9ECE929731CBE80B53BFBC1 /* Pods_task5MAD_WatchKit_App.framework */; };
 		936F6ACB26480652005F23CE /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F6ACA26480652005F23CE /* ApiClient.swift */; };
+		936F6AD2264820C2005F23CE /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 936F6AD1264820C2005F23CE /* Home.png */; };
+		936F6AD3264820C2005F23CE /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 936F6AD1264820C2005F23CE /* Home.png */; };
+		936F6AD4264820C2005F23CE /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 936F6AD1264820C2005F23CE /* Home.png */; };
+		936F6ADB26482304005F23CE /* IconApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 936F6ADA26482304005F23CE /* IconApp.png */; };
+		936F6ADC26482304005F23CE /* IconApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 936F6ADA26482304005F23CE /* IconApp.png */; };
+		936F6ADD26482304005F23CE /* IconApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 936F6ADA26482304005F23CE /* IconApp.png */; };
 		93BF9DD02647ED2C00012679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF9DCF2647ED2C00012679 /* AppDelegate.swift */; };
 		93BF9DD22647ED2C00012679 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF9DD12647ED2C00012679 /* SceneDelegate.swift */; };
 		93BF9DD42647ED2C00012679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF9DD32647ED2C00012679 /* ViewController.swift */; };
@@ -138,6 +144,8 @@
 		651191D13059D8E7C5DF9F99 /* Pods-task5MAD-task5MADUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MAD-task5MADUITests.release.xcconfig"; path = "Target Support Files/Pods-task5MAD-task5MADUITests/Pods-task5MAD-task5MADUITests.release.xcconfig"; sourceTree = "<group>"; };
 		698096B92FEF1B1B7DCBFB8B /* Pods-task5MADTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MADTests.debug.xcconfig"; path = "Target Support Files/Pods-task5MADTests/Pods-task5MADTests.debug.xcconfig"; sourceTree = "<group>"; };
 		936F6ACA26480652005F23CE /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		936F6AD1264820C2005F23CE /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		936F6ADA26482304005F23CE /* IconApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconApp.png; sourceTree = "<group>"; };
 		93BF9DCC2647ED2C00012679 /* task5MAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task5MAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BF9DCF2647ED2C00012679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93BF9DD12647ED2C00012679 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -357,8 +365,10 @@
 		93BF9E742647EE6300012679 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				936F6AD1264820C2005F23CE /* Home.png */,
 				93BF9E8C2647F01E00012679 /* Background.png */,
 				93BF9E7E2647EE9500012679 /* SplashScreen.png */,
+				936F6ADA26482304005F23CE /* IconApp.png */,
 				93BF9E752647EE6E00012679 /* Logo.png */,
 			);
 			path = Images;
@@ -541,7 +551,9 @@
 				93BF9E542647ED9800012679 /* Alegreya-BlackItalic.ttf in Resources */,
 				93BF9E4B2647ED9800012679 /* Alegreya-Medium.ttf in Resources */,
 				93BF9E762647EE6E00012679 /* Logo.png in Resources */,
+				936F6ADB26482304005F23CE /* IconApp.png in Resources */,
 				93BF9E482647ED9800012679 /* Alegreya-Italic.ttf in Resources */,
+				936F6AD2264820C2005F23CE /* Home.png in Resources */,
 				93BF9E8D2647F01E00012679 /* Background.png in Resources */,
 				93BF9E4E2647ED9800012679 /* Alegreya-Regular.ttf in Resources */,
 				93BF9E572647ED9800012679 /* Alegreya-ExtraBoldItalic.ttf in Resources */,
@@ -572,6 +584,8 @@
 				93BF9E492647ED9800012679 /* Alegreya-Italic.ttf in Resources */,
 				93BF9E612647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */,
 				93BF9E5E2647ED9800012679 /* Alegreya-Black.ttf in Resources */,
+				936F6ADC26482304005F23CE /* IconApp.png in Resources */,
+				936F6AD3264820C2005F23CE /* Home.png in Resources */,
 				93BF9E462647ED9800012679 /* Alegreya-ExtraBold.ttf in Resources */,
 				93BF9DFF2647ED2F00012679 /* Assets.xcassets in Resources */,
 				93BF9E4C2647ED9800012679 /* Alegreya-Medium.ttf in Resources */,
@@ -598,10 +612,12 @@
 				93BF9E532647ED9800012679 /* Alegreya-MediumItalic.ttf in Resources */,
 				93BF9E592647ED9800012679 /* Alegreya-ExtraBoldItalic.ttf in Resources */,
 				93BF9E472647ED9800012679 /* Alegreya-ExtraBold.ttf in Resources */,
+				936F6ADD26482304005F23CE /* IconApp.png in Resources */,
 				93BF9E132647ED3000012679 /* Assets.xcassets in Resources */,
 				93BF9E8F2647F01E00012679 /* Background.png in Resources */,
 				93BF9E502647ED9800012679 /* Alegreya-Regular.ttf in Resources */,
 				93BF9E562647ED9800012679 /* Alegreya-BlackItalic.ttf in Resources */,
+				936F6AD4264820C2005F23CE /* Home.png in Resources */,
 				93BF9E812647EE9500012679 /* SplashScreen.png in Resources */,
 				93BF9E4D2647ED9800012679 /* Alegreya-Medium.ttf in Resources */,
 			);

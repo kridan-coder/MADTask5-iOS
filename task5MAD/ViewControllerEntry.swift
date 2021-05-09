@@ -20,8 +20,19 @@ class ViewControllerEntry: UIViewController, UITextFieldDelegate {
         
         let defaults = UserDefaults.standard
         
+        defaults.setValue(response.id, forKey: "id")
+        
+        defaults.setValue(response.email, forKey: "email")
+        
+        defaults.setValue(response.nickname, forKey: "nickname")
+        
+        defaults.setValue(response.avatar, forKey: "avatar")
+        
         defaults.setValue(token, forKey: "token")
         
+        let vc = storyboard?.instantiateViewController(identifier: "TabBarController") as! UITabBarController
+        
+        navigationController?.pushViewController(vc, animated: true)
         
 
     }
