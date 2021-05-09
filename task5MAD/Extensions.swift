@@ -13,7 +13,7 @@ extension UITextField {
     func addUnderline(){
         let underline = CALayer()
         
-        underline.frame = CGRect(x: 0, y: self.frame.height - 15, width: self.frame.width, height: 0.5)
+        underline.frame = CGRect(x: 0, y: self.frame.height - 5, width: self.frame.width, height: 0.5)
         
         underline.backgroundColor = #colorLiteral(red: 0.7450980392, green: 0.7607843137, blue: 0.7607843137, alpha: 1)
         

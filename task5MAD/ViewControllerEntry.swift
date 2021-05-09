@@ -14,6 +14,29 @@ class ViewControllerEntry: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var enterButton: UIButton!
     
+    func requestSuccess(_ response: SignInResponse){
+        guard let token = response.token else {return}
+        print("Success! Token: \(token)")
+        
+        let defaults = UserDefaults.standard
+        
+        defaults.setValue(token, forKey: "token")
+        
+        
+
+    }
+    
+    @IBAction func enterButtonPressed(_ sender: UIButton) {
+        guard validate() else {return}
+        
+        let parameters = SignInRequest(email: emailField.text!, password: passwordField.text!)
+        
+        ApiClient().signIn(parameters: parameters, success: {response in
+            
+            self.requestSuccess(response)
+            
+        })
+    }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         let nextTag = textField.tag + 1
