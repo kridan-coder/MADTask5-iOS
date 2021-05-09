@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -57,6 +57,12 @@
 		93BF9E602647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E442647ED9800012679 /* Alegreya-BoldItalic.ttf */; };
 		93BF9E612647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E442647ED9800012679 /* Alegreya-BoldItalic.ttf */; };
 		93BF9E622647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E442647ED9800012679 /* Alegreya-BoldItalic.ttf */; };
+		93BF9E762647EE6E00012679 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E752647EE6E00012679 /* Logo.png */; };
+		93BF9E772647EE6E00012679 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E752647EE6E00012679 /* Logo.png */; };
+		93BF9E782647EE6E00012679 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E752647EE6E00012679 /* Logo.png */; };
+		93BF9E7F2647EE9500012679 /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E7E2647EE9500012679 /* SplashScreen.png */; };
+		93BF9E802647EE9500012679 /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E7E2647EE9500012679 /* SplashScreen.png */; };
+		93BF9E812647EE9500012679 /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E7E2647EE9500012679 /* SplashScreen.png */; };
 		A3669792D50270FBA370FFE4 /* Pods_task5MADTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2EB99B6BF1DD0A8ED130CD /* Pods_task5MADTests.framework */; };
 		DCFA56815C02508C9CC1545F /* Pods_task5MAD_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED54E100D7E5F3A30AA40CD4 /* Pods_task5MAD_WatchKit_Extension.framework */; };
 		DE572FB5273BF8A776850E50 /* Pods_task5MAD_task5MADUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D087640698E22F297F7C3BE2 /* Pods_task5MAD_task5MADUITests.framework */; };
@@ -163,6 +169,8 @@
 		93BF9E422647ED9700012679 /* Alegreya-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Bold.ttf"; sourceTree = "<group>"; };
 		93BF9E432647ED9800012679 /* Alegreya-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Black.ttf"; sourceTree = "<group>"; };
 		93BF9E442647ED9800012679 /* Alegreya-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-BoldItalic.ttf"; sourceTree = "<group>"; };
+		93BF9E752647EE6E00012679 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		93BF9E7E2647EE9500012679 /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen.png; sourceTree = "<group>"; };
 		9D2EB99B6BF1DD0A8ED130CD /* Pods_task5MADTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task5MADTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE5D38D9EACDBF55024C7C1 /* Pods-task5MAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MAD.release.xcconfig"; path = "Target Support Files/Pods-task5MAD/Pods-task5MAD.release.xcconfig"; sourceTree = "<group>"; };
 		B9ECE929731CBE80B53BFBC1 /* Pods_task5MAD_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task5MAD_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,13 +239,13 @@
 				698096B92FEF1B1B7DCBFB8B /* Pods-task5MADTests.debug.xcconfig */,
 				ED27C356F174CE94AD44FBD1 /* Pods-task5MADTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		93BF9DC32647ED2B00012679 = {
 			isa = PBXGroup;
 			children = (
+				93BF9E742647EE6300012679 /* Images */,
 				93BF9E302647ED6800012679 /* Fonts */,
 				93BF9DCE2647ED2C00012679 /* task5MAD */,
 				93BF9DE52647ED2E00012679 /* task5MADTests */,
@@ -334,6 +342,15 @@
 				93BF9E3E2647ED9600012679 /* Alegreya-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		93BF9E742647EE6300012679 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				93BF9E7E2647EE9500012679 /* SplashScreen.png */,
+				93BF9E752647EE6E00012679 /* Logo.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		E94A1EE603AEE37354858F75 /* Frameworks */ = {
@@ -508,9 +525,11 @@
 				93BF9DD92647ED2D00012679 /* Assets.xcassets in Resources */,
 				93BF9E452647ED9800012679 /* Alegreya-ExtraBold.ttf in Resources */,
 				93BF9E602647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */,
+				93BF9E7F2647EE9500012679 /* SplashScreen.png in Resources */,
 				93BF9E512647ED9800012679 /* Alegreya-MediumItalic.ttf in Resources */,
 				93BF9E542647ED9800012679 /* Alegreya-BlackItalic.ttf in Resources */,
 				93BF9E4B2647ED9800012679 /* Alegreya-Medium.ttf in Resources */,
+				93BF9E762647EE6E00012679 /* Logo.png in Resources */,
 				93BF9E482647ED9800012679 /* Alegreya-Italic.ttf in Resources */,
 				93BF9E4E2647ED9800012679 /* Alegreya-Regular.ttf in Resources */,
 				93BF9E572647ED9800012679 /* Alegreya-ExtraBoldItalic.ttf in Resources */,
@@ -544,9 +563,11 @@
 				93BF9DFF2647ED2F00012679 /* Assets.xcassets in Resources */,
 				93BF9E4C2647ED9800012679 /* Alegreya-Medium.ttf in Resources */,
 				93BF9E582647ED9800012679 /* Alegreya-ExtraBoldItalic.ttf in Resources */,
+				93BF9E772647EE6E00012679 /* Logo.png in Resources */,
 				93BF9DFD2647ED2E00012679 /* Interface.storyboard in Resources */,
 				93BF9E522647ED9800012679 /* Alegreya-MediumItalic.ttf in Resources */,
 				93BF9E5B2647ED9800012679 /* Alegreya-Bold.ttf in Resources */,
+				93BF9E802647EE9500012679 /* SplashScreen.png in Resources */,
 				93BF9E552647ED9800012679 /* Alegreya-BlackItalic.ttf in Resources */,
 				93BF9E4F2647ED9800012679 /* Alegreya-Regular.ttf in Resources */,
 			);
@@ -556,6 +577,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BF9E782647EE6E00012679 /* Logo.png in Resources */,
 				93BF9E4A2647ED9800012679 /* Alegreya-Italic.ttf in Resources */,
 				93BF9E622647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */,
 				93BF9E5C2647ED9800012679 /* Alegreya-Bold.ttf in Resources */,
@@ -566,6 +588,7 @@
 				93BF9E132647ED3000012679 /* Assets.xcassets in Resources */,
 				93BF9E502647ED9800012679 /* Alegreya-Regular.ttf in Resources */,
 				93BF9E562647ED9800012679 /* Alegreya-BlackItalic.ttf in Resources */,
+				93BF9E812647EE9500012679 /* SplashScreen.png in Resources */,
 				93BF9E4D2647ED9800012679 /* Alegreya-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
