@@ -66,6 +66,7 @@
 		93BF9E8D2647F01E00012679 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E8C2647F01E00012679 /* Background.png */; };
 		93BF9E8E2647F01E00012679 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E8C2647F01E00012679 /* Background.png */; };
 		93BF9E8F2647F01E00012679 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E8C2647F01E00012679 /* Background.png */; };
+		93BF9E9B2647FBC800012679 /* ViewControllerEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF9E9A2647FBC800012679 /* ViewControllerEntry.swift */; };
 		A3669792D50270FBA370FFE4 /* Pods_task5MADTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2EB99B6BF1DD0A8ED130CD /* Pods_task5MADTests.framework */; };
 		DCFA56815C02508C9CC1545F /* Pods_task5MAD_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED54E100D7E5F3A30AA40CD4 /* Pods_task5MAD_WatchKit_Extension.framework */; };
 		DE572FB5273BF8A776850E50 /* Pods_task5MAD_task5MADUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D087640698E22F297F7C3BE2 /* Pods_task5MAD_task5MADUITests.framework */; };
@@ -175,6 +176,7 @@
 		93BF9E752647EE6E00012679 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		93BF9E7E2647EE9500012679 /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen.png; sourceTree = "<group>"; };
 		93BF9E8C2647F01E00012679 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		93BF9E9A2647FBC800012679 /* ViewControllerEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEntry.swift; sourceTree = "<group>"; };
 		9D2EB99B6BF1DD0A8ED130CD /* Pods_task5MADTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task5MADTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE5D38D9EACDBF55024C7C1 /* Pods-task5MAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MAD.release.xcconfig"; path = "Target Support Files/Pods-task5MAD/Pods-task5MAD.release.xcconfig"; sourceTree = "<group>"; };
 		B9ECE929731CBE80B53BFBC1 /* Pods_task5MAD_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task5MAD_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -282,6 +284,7 @@
 				93BF9DD12647ED2C00012679 /* SceneDelegate.swift */,
 				93BF9DD32647ED2C00012679 /* ViewController.swift */,
 				93BF9DD52647ED2C00012679 /* Main.storyboard */,
+				93BF9E9A2647FBC800012679 /* ViewControllerEntry.swift */,
 				93BF9DD82647ED2D00012679 /* Assets.xcassets */,
 				93BF9DDA2647ED2D00012679 /* LaunchScreen.storyboard */,
 				93BF9DDD2647ED2D00012679 /* Info.plist */,
@@ -755,6 +758,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BF9E9B2647FBC800012679 /* ViewControllerEntry.swift in Sources */,
 				93BF9DD42647ED2C00012679 /* ViewController.swift in Sources */,
 				93BF9DD02647ED2C00012679 /* AppDelegate.swift in Sources */,
 				93BF9DD22647ED2C00012679 /* SceneDelegate.swift in Sources */,
