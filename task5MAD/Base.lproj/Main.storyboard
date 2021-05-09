@@ -1,24 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EXq-RP-ikD">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Alegreya-Bold.ttf">
+            <string>Alegreya-Bold</string>
+        </array>
+        <array key="Alegreya-Regular.ttf">
+            <string>Alegreya-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="task5MAD" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="g1T-5M-Pqk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="t5k-pX-ggH">
+                                <rect key="frame" x="0.0" y="110" width="414" height="414"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="t5k-pX-ggH" secondAttribute="height" multiplier="1:1" id="efq-yJ-aQR"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Jip-VH-xhP">
+                                <rect key="frame" x="77.5" y="445.5" width="259" height="139"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ПРИВЕТ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="XlS-jF-g9b">
+                                        <rect key="frame" x="0.0" y="0.0" width="259" height="49"/>
+                                        <fontDescription key="fontDescription" name="Alegreya-Bold" family="Alegreya" pointSize="36"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Наслаждайся отборочными." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="d4U-JW-NXZ">
+                                        <rect key="frame" x="0.0" y="49" width="259" height="30"/>
+                                        <fontDescription key="fontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="22"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Будь внимателен." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="aJX-OH-F8l">
+                                        <rect key="frame" x="0.0" y="79" width="259" height="30"/>
+                                        <fontDescription key="fontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="22"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Делай хорошо." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="2Vh-8E-nLu">
+                                        <rect key="frame" x="0.0" y="109" width="259" height="30"/>
+                                        <fontDescription key="fontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="22"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Jip-VH-xhP" firstAttribute="centerX" secondItem="t5k-pX-ggH" secondAttribute="centerX" id="1FO-Ms-YNM"/>
+                            <constraint firstAttribute="bottom" secondItem="g1T-5M-Pqk" secondAttribute="bottom" id="26n-Dd-Fcg"/>
+                            <constraint firstItem="t5k-pX-ggH" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.7" id="8e0-zg-k6Y"/>
+                            <constraint firstItem="t5k-pX-ggH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="A1P-CC-sWE"/>
+                            <constraint firstItem="Jip-VH-xhP" firstAttribute="height" secondItem="t5k-pX-ggH" secondAttribute="height" multiplier="0.335749" id="CI9-bD-DS1"/>
+                            <constraint firstItem="t5k-pX-ggH" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="LAs-4w-IGR"/>
+                            <constraint firstItem="g1T-5M-Pqk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="at6-Wc-kTH"/>
+                            <constraint firstAttribute="trailing" secondItem="g1T-5M-Pqk" secondAttribute="trailing" id="ups-Xk-R9h"/>
+                            <constraint firstItem="g1T-5M-Pqk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vec-vn-IN5"/>
+                            <constraint firstItem="Jip-VH-xhP" firstAttribute="top" secondItem="t5k-pX-ggH" secondAttribute="bottom" multiplier="0.85" id="yQL-32-Gle"/>
+                            <constraint firstItem="Jip-VH-xhP" firstAttribute="width" secondItem="t5k-pX-ggH" secondAttribute="width" multiplier="0.625604" id="ydf-oh-JmH"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="g1Q-6b-Zjc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="572" y="-118"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MTH-tr-E85">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="EXq-RP-ikD" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pz8-8r-UXA">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vLQ-cE-CFh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZzN-c0-jk5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-333" y="-71"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background" width="750" height="1470"/>
+        <image name="Logo" width="750" height="906"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
