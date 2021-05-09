@@ -27,6 +27,10 @@
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
 	<string>Daniil.task5MAD</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Alegreya-Regular.ttf</string>
+	</array>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

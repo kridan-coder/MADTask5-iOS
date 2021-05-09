@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EE6DF80B5CFE295922041D7 /* Pods_task5MAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A39EEE6A8CC4F71F61052B7 /* Pods_task5MAD.framework */; };
+		64571784F23E19BF3628DD45 /* Pods_task5MAD_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9ECE929731CBE80B53BFBC1 /* Pods_task5MAD_WatchKit_App.framework */; };
 		93BF9DD02647ED2C00012679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF9DCF2647ED2C00012679 /* AppDelegate.swift */; };
 		93BF9DD22647ED2C00012679 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF9DD12647ED2C00012679 /* SceneDelegate.swift */; };
 		93BF9DD42647ED2C00012679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF9DD32647ED2C00012679 /* ViewController.swift */; };
@@ -24,6 +26,40 @@
 		93BF9E0F2647ED2F00012679 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF9E0E2647ED2F00012679 /* NotificationController.swift */; };
 		93BF9E112647ED2F00012679 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF9E102647ED2F00012679 /* ComplicationController.swift */; };
 		93BF9E132647ED3000012679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E122647ED3000012679 /* Assets.xcassets */; };
+		93BF9E2F2647ED6500012679 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF9E2E2647ED6500012679 /* Extensions.swift */; };
+		93BF9E452647ED9800012679 /* Alegreya-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3B2647ED9600012679 /* Alegreya-ExtraBold.ttf */; };
+		93BF9E462647ED9800012679 /* Alegreya-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3B2647ED9600012679 /* Alegreya-ExtraBold.ttf */; };
+		93BF9E472647ED9800012679 /* Alegreya-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3B2647ED9600012679 /* Alegreya-ExtraBold.ttf */; };
+		93BF9E482647ED9800012679 /* Alegreya-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3C2647ED9600012679 /* Alegreya-Italic.ttf */; };
+		93BF9E492647ED9800012679 /* Alegreya-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3C2647ED9600012679 /* Alegreya-Italic.ttf */; };
+		93BF9E4A2647ED9800012679 /* Alegreya-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3C2647ED9600012679 /* Alegreya-Italic.ttf */; };
+		93BF9E4B2647ED9800012679 /* Alegreya-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3D2647ED9600012679 /* Alegreya-Medium.ttf */; };
+		93BF9E4C2647ED9800012679 /* Alegreya-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3D2647ED9600012679 /* Alegreya-Medium.ttf */; };
+		93BF9E4D2647ED9800012679 /* Alegreya-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3D2647ED9600012679 /* Alegreya-Medium.ttf */; };
+		93BF9E4E2647ED9800012679 /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3E2647ED9600012679 /* Alegreya-Regular.ttf */; };
+		93BF9E4F2647ED9800012679 /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3E2647ED9600012679 /* Alegreya-Regular.ttf */; };
+		93BF9E502647ED9800012679 /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3E2647ED9600012679 /* Alegreya-Regular.ttf */; };
+		93BF9E512647ED9800012679 /* Alegreya-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3F2647ED9700012679 /* Alegreya-MediumItalic.ttf */; };
+		93BF9E522647ED9800012679 /* Alegreya-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3F2647ED9700012679 /* Alegreya-MediumItalic.ttf */; };
+		93BF9E532647ED9800012679 /* Alegreya-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E3F2647ED9700012679 /* Alegreya-MediumItalic.ttf */; };
+		93BF9E542647ED9800012679 /* Alegreya-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E402647ED9700012679 /* Alegreya-BlackItalic.ttf */; };
+		93BF9E552647ED9800012679 /* Alegreya-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E402647ED9700012679 /* Alegreya-BlackItalic.ttf */; };
+		93BF9E562647ED9800012679 /* Alegreya-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E402647ED9700012679 /* Alegreya-BlackItalic.ttf */; };
+		93BF9E572647ED9800012679 /* Alegreya-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E412647ED9700012679 /* Alegreya-ExtraBoldItalic.ttf */; };
+		93BF9E582647ED9800012679 /* Alegreya-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E412647ED9700012679 /* Alegreya-ExtraBoldItalic.ttf */; };
+		93BF9E592647ED9800012679 /* Alegreya-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E412647ED9700012679 /* Alegreya-ExtraBoldItalic.ttf */; };
+		93BF9E5A2647ED9800012679 /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E422647ED9700012679 /* Alegreya-Bold.ttf */; };
+		93BF9E5B2647ED9800012679 /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E422647ED9700012679 /* Alegreya-Bold.ttf */; };
+		93BF9E5C2647ED9800012679 /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E422647ED9700012679 /* Alegreya-Bold.ttf */; };
+		93BF9E5D2647ED9800012679 /* Alegreya-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E432647ED9800012679 /* Alegreya-Black.ttf */; };
+		93BF9E5E2647ED9800012679 /* Alegreya-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E432647ED9800012679 /* Alegreya-Black.ttf */; };
+		93BF9E5F2647ED9800012679 /* Alegreya-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E432647ED9800012679 /* Alegreya-Black.ttf */; };
+		93BF9E602647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E442647ED9800012679 /* Alegreya-BoldItalic.ttf */; };
+		93BF9E612647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E442647ED9800012679 /* Alegreya-BoldItalic.ttf */; };
+		93BF9E622647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93BF9E442647ED9800012679 /* Alegreya-BoldItalic.ttf */; };
+		A3669792D50270FBA370FFE4 /* Pods_task5MADTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2EB99B6BF1DD0A8ED130CD /* Pods_task5MADTests.framework */; };
+		DCFA56815C02508C9CC1545F /* Pods_task5MAD_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED54E100D7E5F3A30AA40CD4 /* Pods_task5MAD_WatchKit_Extension.framework */; };
+		DE572FB5273BF8A776850E50 /* Pods_task5MAD_task5MADUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D087640698E22F297F7C3BE2 /* Pods_task5MAD_task5MADUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +119,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A39EEE6A8CC4F71F61052B7 /* Pods_task5MAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task5MAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEEB9CD6D8630BC3595E645 /* Pods-task5MAD-task5MADUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MAD-task5MADUITests.debug.xcconfig"; path = "Target Support Files/Pods-task5MAD-task5MADUITests/Pods-task5MAD-task5MADUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3555B8CCAD88C18F6D53486B /* Pods-task5MAD WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MAD WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-task5MAD WatchKit Extension/Pods-task5MAD WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		54D4958F6CFF1B47441BAAFB /* Pods-task5MAD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MAD.debug.xcconfig"; path = "Target Support Files/Pods-task5MAD/Pods-task5MAD.debug.xcconfig"; sourceTree = "<group>"; };
+		5832556C34D16F72528C102D /* Pods-task5MAD WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MAD WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-task5MAD WatchKit App/Pods-task5MAD WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		651191D13059D8E7C5DF9F99 /* Pods-task5MAD-task5MADUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MAD-task5MADUITests.release.xcconfig"; path = "Target Support Files/Pods-task5MAD-task5MADUITests/Pods-task5MAD-task5MADUITests.release.xcconfig"; sourceTree = "<group>"; };
+		698096B92FEF1B1B7DCBFB8B /* Pods-task5MADTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MADTests.debug.xcconfig"; path = "Target Support Files/Pods-task5MADTests/Pods-task5MADTests.debug.xcconfig"; sourceTree = "<group>"; };
 		93BF9DCC2647ED2C00012679 /* task5MAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task5MAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BF9DCF2647ED2C00012679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93BF9DD12647ED2C00012679 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,13 +152,41 @@
 		93BF9E122647ED3000012679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93BF9E142647ED3000012679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93BF9E152647ED3000012679 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		93BF9E2E2647ED6500012679 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		93BF9E3B2647ED9600012679 /* Alegreya-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBold.ttf"; sourceTree = "<group>"; };
+		93BF9E3C2647ED9600012679 /* Alegreya-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Italic.ttf"; sourceTree = "<group>"; };
+		93BF9E3D2647ED9600012679 /* Alegreya-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Medium.ttf"; sourceTree = "<group>"; };
+		93BF9E3E2647ED9600012679 /* Alegreya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Regular.ttf"; sourceTree = "<group>"; };
+		93BF9E3F2647ED9700012679 /* Alegreya-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-MediumItalic.ttf"; sourceTree = "<group>"; };
+		93BF9E402647ED9700012679 /* Alegreya-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-BlackItalic.ttf"; sourceTree = "<group>"; };
+		93BF9E412647ED9700012679 /* Alegreya-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		93BF9E422647ED9700012679 /* Alegreya-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Bold.ttf"; sourceTree = "<group>"; };
+		93BF9E432647ED9800012679 /* Alegreya-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Black.ttf"; sourceTree = "<group>"; };
+		93BF9E442647ED9800012679 /* Alegreya-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9D2EB99B6BF1DD0A8ED130CD /* Pods_task5MADTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task5MADTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE5D38D9EACDBF55024C7C1 /* Pods-task5MAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MAD.release.xcconfig"; path = "Target Support Files/Pods-task5MAD/Pods-task5MAD.release.xcconfig"; sourceTree = "<group>"; };
+		B9ECE929731CBE80B53BFBC1 /* Pods_task5MAD_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task5MAD_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D087640698E22F297F7C3BE2 /* Pods_task5MAD_task5MADUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task5MAD_task5MADUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FBF7182306D90E62C6201F /* Pods-task5MAD WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MAD WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-task5MAD WatchKit App/Pods-task5MAD WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		ED27C356F174CE94AD44FBD1 /* Pods-task5MADTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MADTests.release.xcconfig"; path = "Target Support Files/Pods-task5MADTests/Pods-task5MADTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED54E100D7E5F3A30AA40CD4 /* Pods_task5MAD_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_task5MAD_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F113958365637FD5DF3CBF32 /* Pods-task5MAD WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-task5MAD WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-task5MAD WatchKit Extension/Pods-task5MAD WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C7EBF10F172E0EE84E810F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64571784F23E19BF3628DD45 /* Pods_task5MAD_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93BF9DC92647ED2C00012679 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE6DF80B5CFE295922041D7 /* Pods_task5MAD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3669792D50270FBA370FFE4 /* Pods_task5MADTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +202,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE572FB5273BF8A776850E50 /* Pods_task5MAD_task5MADUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,21 +210,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFA56815C02508C9CC1545F /* Pods_task5MAD_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68A92006D66A04FFC3B987D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54D4958F6CFF1B47441BAAFB /* Pods-task5MAD.debug.xcconfig */,
+				AAE5D38D9EACDBF55024C7C1 /* Pods-task5MAD.release.xcconfig */,
+				5832556C34D16F72528C102D /* Pods-task5MAD WatchKit App.debug.xcconfig */,
+				D3FBF7182306D90E62C6201F /* Pods-task5MAD WatchKit App.release.xcconfig */,
+				3555B8CCAD88C18F6D53486B /* Pods-task5MAD WatchKit Extension.debug.xcconfig */,
+				F113958365637FD5DF3CBF32 /* Pods-task5MAD WatchKit Extension.release.xcconfig */,
+				0FEEB9CD6D8630BC3595E645 /* Pods-task5MAD-task5MADUITests.debug.xcconfig */,
+				651191D13059D8E7C5DF9F99 /* Pods-task5MAD-task5MADUITests.release.xcconfig */,
+				698096B92FEF1B1B7DCBFB8B /* Pods-task5MADTests.debug.xcconfig */,
+				ED27C356F174CE94AD44FBD1 /* Pods-task5MADTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		93BF9DC32647ED2B00012679 = {
 			isa = PBXGroup;
 			children = (
+				93BF9E302647ED6800012679 /* Fonts */,
 				93BF9DCE2647ED2C00012679 /* task5MAD */,
 				93BF9DE52647ED2E00012679 /* task5MADTests */,
 				93BF9DF02647ED2E00012679 /* task5MADUITests */,
 				93BF9DFA2647ED2E00012679 /* task5MAD WatchKit App */,
 				93BF9E092647ED2F00012679 /* task5MAD WatchKit Extension */,
 				93BF9DCD2647ED2C00012679 /* Products */,
+				68A92006D66A04FFC3B987D3 /* Pods */,
+				E94A1EE603AEE37354858F75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +265,7 @@
 		93BF9DCE2647ED2C00012679 /* task5MAD */ = {
 			isa = PBXGroup;
 			children = (
+				93BF9E2E2647ED6500012679 /* Extensions.swift */,
 				93BF9DCF2647ED2C00012679 /* AppDelegate.swift */,
 				93BF9DD12647ED2C00012679 /* SceneDelegate.swift */,
 				93BF9DD32647ED2C00012679 /* ViewController.swift */,
@@ -223,6 +319,35 @@
 			path = "task5MAD WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		93BF9E302647ED6800012679 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				93BF9E432647ED9800012679 /* Alegreya-Black.ttf */,
+				93BF9E402647ED9700012679 /* Alegreya-BlackItalic.ttf */,
+				93BF9E422647ED9700012679 /* Alegreya-Bold.ttf */,
+				93BF9E442647ED9800012679 /* Alegreya-BoldItalic.ttf */,
+				93BF9E3B2647ED9600012679 /* Alegreya-ExtraBold.ttf */,
+				93BF9E412647ED9700012679 /* Alegreya-ExtraBoldItalic.ttf */,
+				93BF9E3C2647ED9600012679 /* Alegreya-Italic.ttf */,
+				93BF9E3D2647ED9600012679 /* Alegreya-Medium.ttf */,
+				93BF9E3F2647ED9700012679 /* Alegreya-MediumItalic.ttf */,
+				93BF9E3E2647ED9600012679 /* Alegreya-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E94A1EE603AEE37354858F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A39EEE6A8CC4F71F61052B7 /* Pods_task5MAD.framework */,
+				B9ECE929731CBE80B53BFBC1 /* Pods_task5MAD_WatchKit_App.framework */,
+				ED54E100D7E5F3A30AA40CD4 /* Pods_task5MAD_WatchKit_Extension.framework */,
+				D087640698E22F297F7C3BE2 /* Pods_task5MAD_task5MADUITests.framework */,
+				9D2EB99B6BF1DD0A8ED130CD /* Pods_task5MADTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,10 +355,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93BF9E202647ED3000012679 /* Build configuration list for PBXNativeTarget "task5MAD" */;
 			buildPhases = (
+				501ED653B30EAB7EB336A8A7 /* [CP] Check Pods Manifest.lock */,
 				93BF9DC82647ED2C00012679 /* Sources */,
 				93BF9DC92647ED2C00012679 /* Frameworks */,
 				93BF9DCA2647ED2C00012679 /* Resources */,
 				93BF9E1F2647ED3000012679 /* Embed Watch Content */,
+				C3FBA40C5D36D989A5EA4AE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +376,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93BF9E232647ED3000012679 /* Build configuration list for PBXNativeTarget "task5MADTests" */;
 			buildPhases = (
+				7BC084B3C222BB7D4101F523 /* [CP] Check Pods Manifest.lock */,
 				93BF9DDE2647ED2E00012679 /* Sources */,
 				93BF9DDF2647ED2E00012679 /* Frameworks */,
 				93BF9DE02647ED2E00012679 /* Resources */,
@@ -267,9 +395,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93BF9E262647ED3000012679 /* Build configuration list for PBXNativeTarget "task5MADUITests" */;
 			buildPhases = (
+				CE6DEB2FEAD8BA86261F6056 /* [CP] Check Pods Manifest.lock */,
 				93BF9DE92647ED2E00012679 /* Sources */,
 				93BF9DEA2647ED2E00012679 /* Frameworks */,
 				93BF9DEB2647ED2E00012679 /* Resources */,
+				F42D0EB2DB159D555DFF340E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,8 +415,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93BF9E1C2647ED3000012679 /* Build configuration list for PBXNativeTarget "task5MAD WatchKit App" */;
 			buildPhases = (
+				C2D2AB9DA44916E376C16905 /* [CP] Check Pods Manifest.lock */,
 				93BF9DF42647ED2E00012679 /* Resources */,
 				93BF9E1B2647ED3000012679 /* Embed App Extensions */,
+				8C7EBF10F172E0EE84E810F5 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,6 +434,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93BF9E182647ED3000012679 /* Build configuration list for PBXNativeTarget "task5MAD WatchKit Extension" */;
 			buildPhases = (
+				F8E226F53CBC225A7E31E1E2 /* [CP] Check Pods Manifest.lock */,
 				93BF9E012647ED2F00012679 /* Sources */,
 				93BF9E022647ED2F00012679 /* Frameworks */,
 				93BF9E032647ED2F00012679 /* Resources */,
@@ -371,7 +504,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				93BF9DDC2647ED2D00012679 /* LaunchScreen.storyboard in Resources */,
+				93BF9E5A2647ED9800012679 /* Alegreya-Bold.ttf in Resources */,
 				93BF9DD92647ED2D00012679 /* Assets.xcassets in Resources */,
+				93BF9E452647ED9800012679 /* Alegreya-ExtraBold.ttf in Resources */,
+				93BF9E602647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */,
+				93BF9E512647ED9800012679 /* Alegreya-MediumItalic.ttf in Resources */,
+				93BF9E542647ED9800012679 /* Alegreya-BlackItalic.ttf in Resources */,
+				93BF9E4B2647ED9800012679 /* Alegreya-Medium.ttf in Resources */,
+				93BF9E482647ED9800012679 /* Alegreya-Italic.ttf in Resources */,
+				93BF9E4E2647ED9800012679 /* Alegreya-Regular.ttf in Resources */,
+				93BF9E572647ED9800012679 /* Alegreya-ExtraBoldItalic.ttf in Resources */,
+				93BF9E5D2647ED9800012679 /* Alegreya-Black.ttf in Resources */,
 				93BF9DD72647ED2C00012679 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,8 +537,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BF9E492647ED9800012679 /* Alegreya-Italic.ttf in Resources */,
+				93BF9E612647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */,
+				93BF9E5E2647ED9800012679 /* Alegreya-Black.ttf in Resources */,
+				93BF9E462647ED9800012679 /* Alegreya-ExtraBold.ttf in Resources */,
 				93BF9DFF2647ED2F00012679 /* Assets.xcassets in Resources */,
+				93BF9E4C2647ED9800012679 /* Alegreya-Medium.ttf in Resources */,
+				93BF9E582647ED9800012679 /* Alegreya-ExtraBoldItalic.ttf in Resources */,
 				93BF9DFD2647ED2E00012679 /* Interface.storyboard in Resources */,
+				93BF9E522647ED9800012679 /* Alegreya-MediumItalic.ttf in Resources */,
+				93BF9E5B2647ED9800012679 /* Alegreya-Bold.ttf in Resources */,
+				93BF9E552647ED9800012679 /* Alegreya-BlackItalic.ttf in Resources */,
+				93BF9E4F2647ED9800012679 /* Alegreya-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,11 +556,168 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BF9E4A2647ED9800012679 /* Alegreya-Italic.ttf in Resources */,
+				93BF9E622647ED9800012679 /* Alegreya-BoldItalic.ttf in Resources */,
+				93BF9E5C2647ED9800012679 /* Alegreya-Bold.ttf in Resources */,
+				93BF9E5F2647ED9800012679 /* Alegreya-Black.ttf in Resources */,
+				93BF9E532647ED9800012679 /* Alegreya-MediumItalic.ttf in Resources */,
+				93BF9E592647ED9800012679 /* Alegreya-ExtraBoldItalic.ttf in Resources */,
+				93BF9E472647ED9800012679 /* Alegreya-ExtraBold.ttf in Resources */,
 				93BF9E132647ED3000012679 /* Assets.xcassets in Resources */,
+				93BF9E502647ED9800012679 /* Alegreya-Regular.ttf in Resources */,
+				93BF9E562647ED9800012679 /* Alegreya-BlackItalic.ttf in Resources */,
+				93BF9E4D2647ED9800012679 /* Alegreya-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		501ED653B30EAB7EB336A8A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-task5MAD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC084B3C222BB7D4101F523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-task5MADTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D2AB9DA44916E376C16905 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-task5MAD WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3FBA40C5D36D989A5EA4AE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-task5MAD/Pods-task5MAD-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-task5MAD/Pods-task5MAD-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-task5MAD/Pods-task5MAD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6DEB2FEAD8BA86261F6056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-task5MAD-task5MADUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42D0EB2DB159D555DFF340E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-task5MAD-task5MADUITests/Pods-task5MAD-task5MADUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-task5MAD-task5MADUITests/Pods-task5MAD-task5MADUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-task5MAD-task5MADUITests/Pods-task5MAD-task5MADUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E226F53CBC225A7E31E1E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-task5MAD WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93BF9DC82647ED2C00012679 /* Sources */ = {
@@ -417,6 +727,7 @@
 				93BF9DD42647ED2C00012679 /* ViewController.swift in Sources */,
 				93BF9DD02647ED2C00012679 /* AppDelegate.swift in Sources */,
 				93BF9DD22647ED2C00012679 /* SceneDelegate.swift in Sources */,
+				93BF9E2F2647ED6500012679 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +924,7 @@
 		};
 		93BF9E192647ED3000012679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3555B8CCAD88C18F6D53486B /* Pods-task5MAD WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -635,6 +947,7 @@
 		};
 		93BF9E1A2647ED3000012679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F113958365637FD5DF3CBF32 /* Pods-task5MAD WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -658,6 +971,7 @@
 		};
 		93BF9E1D2647ED3000012679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5832556C34D16F72528C102D /* Pods-task5MAD WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -678,6 +992,7 @@
 		};
 		93BF9E1E2647ED3000012679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FBF7182306D90E62C6201F /* Pods-task5MAD WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -699,6 +1014,7 @@
 		};
 		93BF9E212647ED3000012679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D4958F6CFF1B47441BAAFB /* Pods-task5MAD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -720,6 +1036,7 @@
 		};
 		93BF9E222647ED3000012679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE5D38D9EACDBF55024C7C1 /* Pods-task5MAD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -742,6 +1059,7 @@
 		};
 		93BF9E242647ED3000012679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698096B92FEF1B1B7DCBFB8B /* Pods-task5MADTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -765,6 +1083,7 @@
 		};
 		93BF9E252647ED3000012679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED27C356F174CE94AD44FBD1 /* Pods-task5MADTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -789,6 +1108,7 @@
 		};
 		93BF9E272647ED3000012679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEEB9CD6D8630BC3595E645 /* Pods-task5MAD-task5MADUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -811,6 +1131,7 @@
 		};
 		93BF9E282647ED3000012679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651191D13059D8E7C5DF9F99 /* Pods-task5MAD-task5MADUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
